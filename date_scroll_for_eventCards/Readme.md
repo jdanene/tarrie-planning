@@ -1,4 +1,4 @@
-Purpose: Design for allowing the date to be shown when scrolling event cards with minimal space usa
+Purpose: Design for allowing the date to be shown when scrolling event cards with minimal space usage
 
 URL: Slack
 
