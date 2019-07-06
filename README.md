@@ -2,7 +2,7 @@
 
 This repo will contain the textual planning in the `Wiki` and  design planning for various features in the actual repo. Design planning is any thing you see that an app does well and that we need to steal in some sense. See  `contact_search` for a sample feature design found online. 
 
-# ToDo's
+# ToDo's - btw when I say `read up on` I usually mean watch the best tutorial you can find lol
 1. *(Anyone really)* Write a paragraph of what Tarrie is, like a description of Tarrie, and put it at the top of this `README.md` so we can explain it when mentioning it to people. 
 1. *(Individually)* Finish Case Studies on competitor's (mark which case you are taking in the wiki)
 2. *(Individually)* Read each others case studies. 
@@ -12,7 +12,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
 5. *(Individually)* Know what a restAPI is, look into Tomcat Webservices, what a servlet + server model for Java. The key is to understand the direct connection between Tomcat and servlet. 
 6. *(One Person Does this only)* Set up an AWS EC2 server. Keep password/login somewhere safe and share with others'
-7. *(Individually)* it cheap and that's where we are going to launch are app + read up on Elastic BeanStalk
+7. *(Individually)* Read up on [Elastic BeanStalk](https://aws.amazon.com/elasticbeanstalk/)
     - Basically a java server can only hold 1000 request. Elastic BeanStalk allows you delpoy multiple copies of the same java servers and all request will be load blanced. Meaning when someone request a service form our IP address associated with our AWS EC2 server, BeanStalk will choose a random random java server to route the traffic too. Now we can scale up easily and serve more customers. Also it a good programming principle to store passwords/logins in environment variables so we don't accidently upload them to github (For instance the password/login for a PostgreSQL server holding our data). Good software design will enable the javacode to call environment variables when accessing outside resources like server's and basically anything that takes a password via preset environment variables, so if we change from PostgreSQL to MySQL we wont have to touch code just change the environment variables. So....... BeanStalk has someway to save environment variables for each virtual java machine it is running. 
 7. *(Meetup)* Draw out API protocols, create issues on github, set up our Kanban/Board full of tasks, assign issues to actual people. After this we sart coding our issues and we have finally started. 
 
