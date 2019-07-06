@@ -8,7 +8,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 2. *(Individually)* Read each others case studies. 
 2. *(Meeting)* Merge what we learned from competitors to finish up value proposition, customer segmentation, channels, and revenue. The case studies usually include tips on metrics to watch, things to highlight like `invite friends` or `share event`, and other knickknacks that seem important. Let's write these down as well and highlight things that are common. 
 3. *(Individually)* Finish Agile Training
-4. *(Individually) Set up [Maven](https://maven.apache.org/)
+4. *(Individually)* Set up [Maven](https://maven.apache.org/)
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
 5. *(Individually)* Know what a restAPI is, look into Tomcat Webservices, what a servlet + server model for Java. The key is to understand the direct connection between Tomcat and servlet. 
 6. *(One Person Does this only)* Set up an AWS EC2 server. Keep password/login somewhere safe and share with others'
