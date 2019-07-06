@@ -3,6 +3,7 @@
 This repo will contain the textual planning in the `Wiki` and  design planning for various features in the actual repo. Design planning is any thing you see that an app does well and that we need to steal in some sense. See  `contact_search` for a sample feature design found online. 
 
 # ToDo's
+1. *(Anyone really)* Write a paragraph of what Tarrie is, like a description of Tarrie, and put it at the top of this `README.md` so we can explain it when mentioning it to people. 
 1. *(Individually)* Finish Case Studies on competitor's (mark which case you are taking in the wiki)
 2. *(Individually)* Read each others case studies. 
 2. *(Meeting)* Merge what we learned from competitors to finish up value proposition, customer segmentation, channels, and revenue. The case studies usually include tips on metrics to watch, things to highlight like `invite friends` or `share event`, and other knickknacks that seem important. Let's write these down as well and highlight things that are common. 
