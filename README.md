@@ -19,8 +19,8 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 4. *(Individually)* Set up [Maven](https://maven.apache.org/)
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
     - [15 min tutorial](https://spring.io/guides/gs/maven/)
-5. *(Individually)* Know what a restAPI is, look into [Spring Boot](https://spring.io/projects/spring-boot/), what a servlet + server model for Java. The key is to understand the direct connection between Tomcat and servlet. 
-    - Understand what they are. Basically defining classes and attributes that wholly contain the objects of importance for our app: user, event, etc,[Tutorial](https://restfulapi.net/),[restFul API - explanation(probably better to watch a youtube vid)](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
+5. *(Individually)* Know what a [restAPI](https://restfulapi.net/) is, look into [Spring Boot](https://spring.io/projects/spring-boot/), what a servlet + server model for Java. The key is to understand the direct connection between Tomcat and servlet. 
+    - Understand what they are. Basically defining classes and attributes that wholly contain the objects of importance for our app: user, event, etc,
     - [restAPI tutorial (theory)](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
     - [Building a RESTful Web Service (Implementation w/ Spring Boot)](https://spring.io/guides)
     - I'll probably take on designing the API, and Ryan probably work on current website and learning how to request services for our server? idk. There is also a Spring Tutorial on accessing databases so Spring seems pretty useful.
