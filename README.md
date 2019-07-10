@@ -16,7 +16,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 
 2. *(Meeting)* Merge what we learned from competitors to finish up value proposition, customer segmentation, channels, and revenue. The case studies usually include tips on metrics to watch, things to highlight like `invite friends` or `share event`, and other knickknacks that seem important. Let's write these down as well and highlight things that are common. 
 3. *(Individually)* Finish Agile Training
-4. *(Individually)* Set up [Maven](https://maven.apache.org/)
+4. *(Individually)* Set up [Maven](https://maven.apache.org/) -- [Homebrew](https://brew.sh/) is the easiest way to [install Maven](https://github.com/rajivkanaujia/alphaworks/wiki/Installing-Maven) (*as well as bascially any other package*)
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
     - [15 min tutorial](https://spring.io/guides/gs/maven/)
 5. *(Individually)* Know what a [restAPI](https://restfulapi.net/) is, look into [Spring Boot](https://spring.io/projects/spring-boot/), what a servlet + server model for Java. The key is to understand the direct connection between Tomcat and servlet. 
