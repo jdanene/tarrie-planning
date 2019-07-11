@@ -18,7 +18,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 2. *(Meeting)* Merge what we learned from competitors to finish up value proposition, customer segmentation, channels, and revenue. The case studies usually include tips on metrics to watch, things to highlight like `invite friends` or `share event`, and other knickknacks that seem important. Let's write these down as well and highlight things that are common. 
 
 ### Coding + Tech :bowtie: :neckbeard: :trollface:
-3. *(Individually)* Finish Agile Training -- focus on [Agile Planning](https://www.cs.northwestern.edu/academics/courses/394/#hybrid)  (*find agile videos and others from this NU class webpage*)
+3. *(Individually)* Finish Agile Training -- focus on [Agile Planning](https://www.cs.northwestern.edu/academics/courses/394/#hybrid)  (*find agile videos and others from this NU class webpage*). Or just watch a video online
 4. *(Individually)* Set up [Maven](https://maven.apache.org/) -- [Homebrew](https://brew.sh/) is the easiest way to [install Maven](https://github.com/rajivkanaujia/alphaworks/wiki/Installing-Maven) (*as well as bascially any other package*)
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
     - [15 min tutorial](https://spring.io/guides/gs/maven/)
