@@ -31,6 +31,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 7. *(Individually)* Read up on [Elastic BeanStalk](https://aws.amazon.com/elasticbeanstalk/)
     - Basically a java server can only hold 1000 request. Elastic BeanStalk allows you delpoy multiple copies of the same java servers and all request will be load blanced. Meaning when someone request a service form our IP address associated with our AWS EC2 server, BeanStalk will choose a random random java server to route the traffic too. Now we can scale up easily and serve more customers. Also it a good programming principle to store passwords/logins in environment variables so we don't accidently upload them to github (For instance the password/login for a PostgreSQL server holding our data). Good software design will enable the javacode to call environment variables when accessing outside resources like server's and basically anything that takes a password via preset environment variables, so if we change from PostgreSQL to MySQL we wont have to touch code just change the environment variables. So....... BeanStalk has someway to save environment variables for each virtual java machine it is running. 
 7. *(Meetup)* Draw out API protocols, create issues on github, set up our Kanban/Board full of tasks, assign issues to actual people. After this we sart coding our issues and we have finally started. 
+    - API are alot like classes so basically we will define whats important and stuff. 
 
 
 
