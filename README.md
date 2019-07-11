@@ -4,7 +4,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 
 # ToDo's 
 **btw when I say `read up on` I usually mean watch the best tutorial you can find lol**
-### Project Management + Business :grimacing:
+### Project Management + Business :grimacing: :confounded: :confounded:
 1. *(Anyone really)* Write a paragraph of what Tarrie is, like a description of Tarrie, and put it at the top of this `README.md` so we can explain it when mentioning it to people. 
 1. *(Individually)* Finish Case Studies on competitor's (mark which case you are taking in the wiki)
 2. *(Individually)* Read each others case studies & prepare for product management meeting in the next step.
@@ -17,7 +17,7 @@ This repo will contain the textual planning in the `Wiki` and  design planning f
 
 2. *(Meeting)* Merge what we learned from competitors to finish up value proposition, customer segmentation, channels, and revenue. The case studies usually include tips on metrics to watch, things to highlight like `invite friends` or `share event`, and other knickknacks that seem important. Let's write these down as well and highlight things that are common. 
 
-### Coding + Tech :bowtie:
+### Coding + Tech :bowtie: :neckbeard: :trollface:
 3. *(Individually)* Finish Agile Training -- focus on [Agile Planning](https://www.cs.northwestern.edu/academics/courses/394/#hybrid)  (*find agile videos and others from this NU class webpage*)
 4. *(Individually)* Set up [Maven](https://maven.apache.org/) -- [Homebrew](https://brew.sh/) is the easiest way to [install Maven](https://github.com/rajivkanaujia/alphaworks/wiki/Installing-Maven) (*as well as bascially any other package*)
     - Tarzia reccomends this for Java consistent configuration file that tells application to run the correct libaries. So basically in Python you might have the wrong version of Pandas or Numpy and so the code your working on is broken because the person who wrote the code used a very old version. With Maven it makes sure correct libaries installed so you don't have to worry about issues like this.  (btw in python this can be fixed with a virtualenv + requirements.txt with specific versions since default version of something is the latest)
